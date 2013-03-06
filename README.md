@@ -1,4 +1,4 @@
 advance-github-workshop
 =======================
 
-Presentation on advance GitHub for Hacker Lunch at KnowledgeVision 
+Presentation on advance GitHub topics for Hacker Lunch at KnowledgeVision 
