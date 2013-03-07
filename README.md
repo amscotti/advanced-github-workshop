@@ -1,4 +1,4 @@
-advanced-github-workshop
+this is great readme! advanced-github-workshop
 =======================
 
 Presentation on advanced GitHub for Hacker Lunch at KnowledgeVision 
