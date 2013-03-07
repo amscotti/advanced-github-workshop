@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Advance GitHub</title>
+    <meta name="description" content="Advance GitHub">
+    <meta name="author" content="Anthony Scotti">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+        document.write('<link rel="stylesheet" href="css/print/' + ( window.location.search.match(/print-pdf/gi) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">');
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+  
+<div class="slides">
+
+<section>
+    <h1>Advance GitHub</h1>
+    <h3>Workshop?!</h3>
+    <p>
+        <small>Created by <a href="http://www.amscotti.com">Anthony Scotti</a> / <a href="http://twitter.com/hakimel">@amscotti</a>
+        </small>
+    </p>
+</section>
+
+<section id="why">
+    <h2>Why?</h2>
+    <ul>
+        <li>Github is so much more then just a Git Repo</li>
+        <li>Full projects can be managed from GitHub</li>
+        <li>GitHub was built around social</li>
+    </ul>
+</section>
+
+<section id="things">
+    <h2>Things!</h2>
+    <p>We'll be going over:</p>
+    <ul>
+        <li><a href="#/issues">Issues</a></li>
+        <li><a href="#/pull-request">Pull Request</a></li>
+        <li><a href="#/markdown">GitHub Flavored Markdown</a></li>
+        <li><a href="#/pages">GitHub Pages</a></li>
+        <li><a href="#/servicehooks">GitHub Service Hooks</a></li>
+        <li><a href="#/client">The GitHub Client</a></li>
+    </ul>
+</section>
+
+<section>
+
+    <section id="issues">
+        <h2>We have issues</h2>
+        <img src="images/tumblr_ll1bzvw1hg1qfvq9bo1_500.jpg"/>
+    </section>
+
+    <section>
+        <h2>What are Issues?</h2>
+        <ul>
+            <li>Issues Tracking</li>
+            <li>Discussions</li>
+            <li>Feature requests</li>
+            <li>Work logs</li>
+            <li>Documentation</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>LET'S MAKE A new issue!</h2>
+    </section>
+
+    <section>
+        <h2>Step Zero</h2>
+        <p>Go into the <a href="https://github.com/amscotti/advance-github-workshop">advance-github-workshop</a> repo on
+            GitHub</p>
+        <img src="images/issues_1.png"/>
+    </section>
+
+    <section>
+        <h2>Step One</h2>
+
+        <p>Click on the Issues button</p>
+        <img src="images/issues_2.png"/>
+    </section>
+
+    <section>
+        <h2>Step Two</h2>
+
+        <p>Click on the New Issue button</p>
+        <img src="images/issues_3.png"/>
+    </section>
+
+    <section>
+        <h2>Step Three</h2>
+
+        <p>Fill Out and Submit the Issue</p>
+        <img src="images/issues_4.png"/>
+    </section>
+
+    <section>
+        <h2>Issue can be...</h2>
+        <ul>
+            <li>Commented on</li>
+            <li>Have code added</li>
+            <li>Closed</li>
+        </ul>
+    </section>
+</section>
+
+<section>
+
+    <section id="pull-requests">
+        <h2>Tug-O-War with Pull Requests</h2>
+        <img src="images/tug o war.jpg"/>
+    </section>
+
+    <section>
+        <h2>What are Pull Requests?</h2>
+        <ul>
+            <li>Type of issues</li>
+            <li>Unit of work</li>
+            <li>Work logs</li>
+            <li>Documentation</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>How are Pull Request Used?</h2>
+
+        <p>A pull request can be made from a fork of the repository or from a branch from within the repository</p>
+        <br/>
+
+        <p>When you want your code to be merged into the main repository or another branch in the repository you would
+            make a new pull request</p>
+    </section>
+
+    <section>
+        <h2>LET'S MAKE A new Pull Request!</h2>
+    </section>
+
+    <section>
+        <h2>Step Zero</h2>
+
+        <p>Go into the <a href="https://github.com/amscotti/advance-github-workshop">advance-github-workshop</a> repo on
+            GitHub</p>
+        <img src="images/issues_1.png"/>
+    </section>
+
+    <section>
+        <h2>Step One</h2>
+
+        <p>Click on the Fork Button</p>
+        <img src="images/pull_1.png"/>
+    </section>
+
+    <section>
+        <h2>Step Two</h2>
+
+        <p>Click on the Fork to {Your User Name} Button</p>
+        <img src="images/pull_2.png"/>
+        <h6>Hardcore Forking Action</h6>
+    </section>
+
+    <section>
+        <h2>Step Three</h2>
+
+        <p>Update the code</p>
+        <img src="images/pull_3.png"/>
+    </section>
+
+    <section>
+        <h2>Step Four</h2>
+
+        <p>Click Pull Request</p>
+        <img src="images/pull_4.png"/>
+    </section>
+
+    <section>
+        <h2>Step Five</h2>
+
+        <p>Send the pull request</p>
+        <img src="images/pull_5.png"/>
+    </section>
+
+    <section>
+        <h2>Pull request can be...</h2>
+        <ul>
+            <li>Commented on</li>
+            <li>Have code added</li>
+            <li>Closed</li>
+            <li>Merged</li>
+        </ul>
+        <p><img src="images/19228517.jpg"/></p>
+    </section>
+</section>
+
+<section>
+    <section id="markdown">
+        <h2>GitHub Flavored Markdown</h2>
+        <img src="images/i-has-a-flavor.jpg"/>
+    </section>
+
+    <section>
+        <h2>What is Markdown?</h2>
+      		  <pre><code class="no-highlight">
+## This is Markdown
+
+Markdown is kind of a short hand for making HTML
+
+* There are many places where Markdown is used
+* GitHub has added to what you can do with Markdown
+* [GitHub's Markdown Site](https://help.github.com/articles/github-flavored-markdown)
+              </code></pre>
+    </section>
+
+    <section>
+        <h2>Markdown on GitHub gives you</h2>
+        <ul>
+            <li>Syntax highlighting</li>
+            <li>Task Lists</li>
+            <li>Name and Team @mentions autocomplete</li>
+            <li>Issue autocompletion</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Why use Markdown on GitHub?</h2>
+        <ul>
+            <li>Better format for Issues/Pull Request/Commits</li>
+            <li>Nicer Documentation</li>
+            <li>Able to link to Issues/Pull Request/Commits</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Learn it...Now!</h2>
+        <img src="images/arnold.jpg"/>
+    </section>
+
+</section>
+
+<section>
+    <section id="pages">
+        <h2>Piling on Pages with GitHub Pages</h2>
+        <img src="images/papers.jpg"/>
+    </section>
+
+    <section>
+        <h2>What are GitHub Pages?</h2>
+        <ul>
+            <li>A way to have GitHub host your HTML Pages</li>
+            <li>Will also use <a href="http://jekyllrb.com/">Jekyll</a> to build sites</li>
+            <li>Free Hosting</li>
+            <li>Able to use <a href="https://help.github.com/articles/setting-up-a-custom-domain-with-pages">CNAMES</a>
+                to give a nice domain name
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>How to use GitHub Pages?</h2>
+        <ul>
+            <li>Setup the Repo for the pages</li>
+            <ul>
+                <li>Project repo, make a gh-page branch in the repo</li>
+                <li>User/Organizations, make a new project called {Name}.github.com</li>
+            </ul>
+            <li>Wait for Github to build the site</li>
+            <li>Site URL format will be</li>
+            <ul>
+                <li>Project -> {name}.github.com/{Project Name}</li>
+                <li>User/Organizations -> {name}.github.com</li>
+            </ul>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Jekyll on GitHub Pages</h2>
+
+        <p>Jekyll can help build a site or a blog from Markdown files</p>
+        <ul>
+            <li>Setup a Jekyll Project</li>
+            <li>Push to GitHub</li>
+            <li>Wait for Github to build the site</li>
+        </ul>
+        <p>More info on <a href="https://help.github.com/articles/using-jekyll-with-pages">GitHub's Using Jekyll With
+            Page</a></p>
+    </section>
+
+    <section>
+        <h2>GitHub Pages Example</h2>
+
+        <p>Your looking at one! ;)</p>
+    </section>
+
+
+</section>
+
+
+<section>
+    <section id="servicehooks">
+        <h2>Getting Hooked with GitHub Service Hooks</h2>
+        <img height="450px" src="images/Captain-Hook.jpg"/>
+        <h6>*Service Hooks are not a villain!</h6>
+    </section>
+
+    <section>
+        <h2>What are GitHub Service Hooks?</h2>
+        <h3>(and what can they do?)</h3>
+        <ul>
+            <li class="fragment">Used to setup integrations with other services</li>
+            <li class="fragment">Can trigger builds in a CI system</li>
+            <li class="fragment">Can add a task into a tracking service</li>
+            <li class="fragment">Can post a message into chat services</li>
+            <li class="fragment">Can send WebHook data to an Arduino, which then will sound the alarm of another great commit that has been pushed to GitHub!
+            </li>
+        </ul>
+        <img class="fragment roll-in" src="images/5130d7811ae70.gif"/>
+    </section>
+
+    <section>
+        <h2>Let's see how to setup a GitHub Service Hook!</h2>
+    </section>
+
+    <section>
+        <h2>Step Zero</h2>
+        <p>Go into your fork of advance-github-workshop repo on GitHub</p>
+        <img src="images/issues_1.png"/>
+    </section>
+    
+    <section>
+        <h2>Step One</h2>
+        <p>Click the Settings Button</p>
+        <img src="images/servicehooks_1.png"/>
+    </section>
+    
+    <section>
+        <h2>Step Two</h2>
+        <p>Click the Service Hooks button and pick your poison!</p>
+        <img src="images/servicehooks_2.png"/>
+    </section>
+
+</section>
+
+<section>
+    <section id="client">
+        <h2>The GitHub Client</h2>
+        <img src="images/github_client.png"/>
+    </section>
+    
+    <section>
+        <h2>What is the GitHub Client?</h2>
+        <img height="550px" src="images/client_1.png"/>
+    </section>
+    
+     <section>
+          <h2>What can the GitHub Client help you with?</h2>
+          <ul>
+              <li>Clone repos to you local system</li>
+              <li>Keep all your local repo in sync with GitHub</li>
+              <li>View commit logs with code changes</li>
+              <li>Make new branches</li>
+              <li>Commit changes and sync with GitHub</li>
+              <li>Notifications when others update the repo</li>
+          </ul>
+    </section>
+    
+     <section>
+          <h2>Where do I get the GitHub Client?</h2>
+          <ul>
+              <li>Mac -> <a href="http://mac.github.com/">mac.github.com</a></li>
+              <li>Windows -> <a href="http://windows.github.com/">windows.github.com</a></li>
+              <li>Linux -> None yet, you're too hardcore to need one! ;)</li>
+          </ul>
+    </section>
+</section>
+
+<section>
+  <section id="resources">
+      <h2>GitHub Resources</h2>
+      <ul>
+          <li>GitHub's Learn page at <a href="http://learn.github.com/">learn.github.com</a></li>
+          <li>Code School's tryGit at <a href="http://try.github.com/">try.github.com</a></li>
+          <li>GitHub help pages at <a href="https://help.github.com/">help.github.com</a></li>
+          <li><a href="http://scottchacon.com/2011/08/31/github-flow.html">GitHub Flow</a> by Scott Chacon</li>
+      </ul>
+  </section>
+  <section>
+      <h2>How Github Uses Github to Build Github</h2>
+      <iframe width="560" height="315" src="http://www.youtube.com/embed/MQZoy3VU3io" frameborder="0" allowfullscreen></iframe>
+      <blockquote cite="http://zachholman.com/talk/how-github-uses-github-to-build-github/">
+          I looked this up in the dictionary and the dictionary definition was 'you can do shit without needing to pull me out of the zone'. I read really edgy dictionaries.
+      </blockquote>
+       Zach Holman
+  </section>
+</section>
+
+
+<section id="end">
+    <h1>THE END</h1>
+    <img height="550px" src="images/likeaboss.jpeg"/>
+    <h3>Like a boss</h3>
+</section>
+
+</div>
+
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+
+    // Full list of configuration options available here:
+    // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+            { src: 'lib/js/classList.js', condition: function () {
+                return !document.body.classList;
+            } },
+            { src: 'plugin/markdown/showdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            } },
+            { src: 'plugin/markdown/markdown.js', condition: function () {
+                return !!document.querySelector('[data-markdown]');
+            } },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            } },
+            { src: 'plugin/zoom-js/zoom.js', async: true, condition: function () {
+                return !!document.body.classList;
+            } },
+            { src: 'plugin/notes/notes.js', async: true, condition: function () {
+                return !!document.body.classList;
+            } }
+            // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+    });
+
+</script>
+
+</body>
+</html>
